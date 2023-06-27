@@ -23,7 +23,7 @@ jobs:
         with:
           run_install: true
       - name: Install modules
-        run: npm ci
+        run: pnpm i
       - name: build blog
         run: npm run build
       - name: Deploy to S3
