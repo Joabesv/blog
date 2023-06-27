@@ -1,7 +1,12 @@
 {
   "name": "joabesv-blogg",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "author": {
+    "name": "Joabe Silva",
+    "email": "joabevarjao123@gmail.com",
+    "url": "https://joabesv.dev"
+  },
   "packageManager": "pnpm@8.6.3",
   "scripts": {
     "dev": "astro dev",
@@ -11,6 +16,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.7.0"
+    "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/vue": "^2.2.1",
+    "astro": "^2.7.0",
+    "tailwindcss": "^3.0.24",
+    "vue": "^3.2.30"
   }
 }
